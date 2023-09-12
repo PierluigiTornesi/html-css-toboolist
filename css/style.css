@@ -9,12 +9,10 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-
+/*classe universale per tutti i background bianchi  */
 .b-white{
     background-color: white;
 }
-
-
 /* classe per l'header */
 header{
     padding: 10px;
@@ -32,7 +30,7 @@ header{
 }
 /* classe per il main */
 main{
-    margin-top: 100px;
+    margin-top: 30px;
 }
 /* classe per il container */
 .container{
@@ -62,27 +60,26 @@ main{
     color:#d0d5d9;
     background-color: white;
 }
-
 /* classe per la parte inferiore del main */
 .main-under{
     padding: 40px;
 }
-
+/*classe per i ul delle liste */
 ul{
     list-style: none;
     padding: 20px;
 }
-
+/*classe per i li delle liste */
 li{
     background-color: white;
     padding-bottom: 10px;
-}
-
-.titolo-lista{
     font-size: 20px;
+}
+/*classe per il titolo della lista  */
+.titolo-lista{
+    font-size: 30px;
     font-weight: bolder;
 }
-
 /* classe per il cercio verde */
 .circle-green{
     background-color: #83cebb;
@@ -123,4 +120,40 @@ li{
     line-height: 20px;
     text-align: center;
     border-radius: 50%;
+}
+/* classe per tutti i tag  */
+.tag{
+    color:#e2f2fc;
+    font-size: 10px;
+    height: 20px;
+    width: 60px;
+    line-height: 10px;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    border-radius:  15px;
+}
+/*classe per i tag blu  */
+.t-blue{
+    background-color:#45abea;
+}
+/*classe per il tag viola  */
+.t-violet{
+    background-color: #9c72e4;
+}
+/*classe per il tag verde */
+.t-green{
+    background-color: #64c0a9;
+}
+/*classe per il tag arancione */
+.t-orange{
+    background-color: #f29e33;
+}
+/*classe per il tag rosa */
+.t-pink{
+    background-color: #d863a1;
+}
+/*classe per il tag giallo  */
+.t-yellow{
+    background-color: #b0c926;
 }
