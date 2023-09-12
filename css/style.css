@@ -32,7 +32,6 @@ main{
 }
 /* classe per il container */
 .container{
-    background-color: white;
     height: 700px;
     width: 60%;
     margin: 0 auto;
@@ -59,4 +58,51 @@ main{
     border-color: #c7cdd2;
     color:#d0d5d9;
     background-color: white;
+}
+
+/* classe per la parte inferiore del main */
+.main-under{
+    background-color: white;
+    padding: 40px;
+}
+/* classe per il cercio verde */
+.circle-green{
+    background-color: #83cebb;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 50%;
+}
+/*classe per il cerchio rosso  */
+.circle-red{
+    background-color:#ed6158;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 50%;
+
+}
+/*classe per il simbolo verde  */
+.green{
+    color: #65c0a9;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+/*classe per il simbolo rosso  */
+.red{
+    color: #ee7771;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
 }
