@@ -9,10 +9,15 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+.b-white{
+    background-color: white;
+}
+
+
 /* classe per l'header */
 header{
     padding: 10px;
-    background-color:white;
 }
 /* classe per il logo della pagina */
 .logo{
@@ -21,7 +26,6 @@ header{
 /* classe per il testo vicino il logo */
 .logo-text{
     display: inline;
-    background-color: white;
     vertical-align: middle;
     font-size: 40px;
     font-weight: bolder;
@@ -38,7 +42,6 @@ main{
 }
 /* classe per la parte superiore del main */
 .main-top{
-    background-color: white;
     padding: 20px;
 }
 /* classe per i bottoni del main superiore */
@@ -62,9 +65,24 @@ main{
 
 /* classe per la parte inferiore del main */
 .main-under{
-    background-color: white;
     padding: 40px;
 }
+
+ul{
+    list-style: none;
+    padding: 20px;
+}
+
+li{
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.titolo-lista{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
 /* classe per il cercio verde */
 .circle-green{
     background-color: #83cebb;
