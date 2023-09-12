@@ -3,4 +3,60 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f6f8f9;
+}
+/* classe per il body */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* classe per l'header */
+header{
+    padding: 10px;
+    background-color:white;
+}
+/* classe per il logo della pagina */
+.logo{
+    vertical-align: middle ;
+}
+/* classe per il testo vicino il logo */
+.logo-text{
+    display: inline;
+    background-color: white;
+    vertical-align: middle;
+    font-size: 40px;
+    font-weight: bolder;
+}
+/* classe per il main */
+main{
+    margin-top: 100px;
+}
+/* classe per il container */
+.container{
+    background-color: white;
+    height: 700px;
+    width: 60%;
+    margin: 0 auto;
+}
+/* classe per la parte superiore del main */
+.main-top{
+    background-color: white;
+    padding: 20px;
+}
+/* classe per i bottoni del main superiore */
+.main-top button{
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+}
+/* classe per il bottone colorato */
+.button-blue{
+    background-color:#47adf1;
+    color: white;
+    border-color: #b0dcf9;
+}
+/* classe per il bottone chiaro */
+.button-gray{
+    border-color: #c7cdd2;
+    color:#d0d5d9;
+    background-color: white;
 }
